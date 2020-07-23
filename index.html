@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X_UA_Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale = 1">
+        <title>Hunger Games</title>
+        <link rel="stylesheet" href = "css/bootstrap.min.css">
+        <link rel="stylesheet" href = "css/styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Rowdies&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav id="header-nav" class="navbar navbar-expand-md"> <!--navbar classes from bootstrap-->
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a href="index.html" class="float-left d-none d-md-block">
+                            <div id="logo-img" alt="Logo Image"></div>
+                        </a>
+                        <a href="index.html"><h1>Hunger Games</h1></a>
+                        <p>
+                            <span> &#127837;The best you'll ever eat!!</span>
+                        </p>
+                    </div>
+                   
+                    <button type ="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsed-nav" >
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar" style="margin-bottom: 0;"></span>
+
+                    </button>
+                    
+                    <div id="collapsed-nav" class="collapse navbar-collapse justify-content-end">
+                        <ul class="navbar-nav navbar-right" id="nav-list">
+                            <li class="nav-item  d block d-md-none">
+                                <a class = "nav-link active" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class = "nav-link" href="menu-cat.html">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class = "nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class = "nav-link" href="#">Awards</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class = "nav-link" href="tel: 1234567890">Call</a>
+                            </li>
+                        </ul>
+                    </div> 
+                    
+                </div>
+            </nav>
+        </header>
+        <div id="main-content" class="container">
+            <div class="jumbotron">
+                <img src="images/blue1_768.jpg" class="img-fluid d block d-md-none">
+            </div>
+            <div id="home-tiles"  class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="menu-cat.html"><div id="menu-tile"><span>Menu</span></div></a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="special-cat.html"><div id="specials-tile"><span>Specials</span></div></a>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <a href="https://goo.gl/maps/HhGsvEMgGb7whCyVA" target="_blank">
+                        <div id="map-tile">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.2614761478158!2d75.88696579999997!3d22.71852070000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd3a6a35bb45%3A0x39ff5de1f26a3fbe!2sDil%20Pasand%20Heights!5e0!3m2!1sen!2sin!4v1595491319712!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            <span>Map</span>
+                        </div>
+                    </a>
+                </div>
+            </div> <!--End of home tile-->
+        </div> <!--End of main content-->
+        <footer class="panel-footer">
+            <div class="container">
+                <div class="row">
+                    <section id="hours" class="col-sm-4">
+                        <span>Hours: </span>
+                        <p>Mon-Friday: 11:30am - 10:30pm<br>
+                        Sat-Sun: 11:30am - 12:20pm <br></p>
+                        <hr class="d block d-sm-none">
+                    </section>
+                    <section id="address" class="col-sm-4">
+                        <span>Address: </span><br>
+                        <span style="font-family: Bitter, serif; font-size: 1em;">XYZ Road<br>
+                        Abcdef, CD 12345</span>
+
+                        <p> Delivery area within 10 miles, with minimum order
+                            of $20 plus $3 delivery charges.
+                        </p>
+                        <hr class="d block d-sm-none">
+                    </section>
+                    <section id="testimonials" class="col-sm-4">
+                        <p>The best food for every mood!<br> 
+                            Eat. Sleep. Repeat.
+                        </p>
+                    </section>
+                </div>
+                <div style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: small;">&copy; Copyright Apoorva Seth 2020</div>
+            </div>
+
+        </footer>
+
+
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
